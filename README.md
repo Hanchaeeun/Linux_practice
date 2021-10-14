@@ -1,2 +1,24 @@
 # Linux_pratice
 유전체 데이터 돌연변이 분석
+
+# [수원대학교]슈퍼컴퓨터 유전체분석 연구
+2021.04.01- 2021.10.31
+
+## purpose
+- 슈퍼컴퓨터 기반 유전체 변이분석 파이프 라인 최적화 기술 개발
+
+## System environment
+KISTI 슈퍼컴퓨터 5호기 누리온 (05-Nurion-KNL)
+### OS
+centOS 7
+### Terminal program
+MobaXterm
+
+## assignment
+- Linux 기초 문법 정리
+- 유전체 데이터 분석에 대한 이해
+  - 생명정보학의 기본 개념
+  - 유전체 분석 도구 사용법
+  - linux 활용 스크립트 구현
+- PBS(스케줄러)를 이용한 작업 실행
+- 슈퍼컴퓨터에 최적화된 Multi-threading 변이분석 파이프라인 구축
