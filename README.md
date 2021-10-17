@@ -15,7 +15,7 @@ centOS 7
 MobaXterm
 
 ## assignment
-- Linux 기초 문법 정리
+- Linux 기초 활용 정리
 - 유전체 데이터 분석에 대한 이해
   - 생명정보학의 기본 개념
   - 유전체 분석 도구 사용법
