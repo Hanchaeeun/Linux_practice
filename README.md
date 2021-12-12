@@ -23,8 +23,13 @@ MobaXterm
 - 슈퍼컴퓨터에 최적화된 Multi-threading 변이분석 파이프라인 구축
 ## create scripts
 1. Setting the environment
+
   anaconda3에 python3.8 가상환경 생성 후 접속해 bwa툴 다운로드 
+  
 2. sampling  bam
+
   bamfile을 입력 받아 크기를 10%~100%로 랜덤 추출한 bam파일 출력
+  
 3. Strelka2
+ 
   돌연변이 분석 툴인 Strelka2를 설치 후 germline, somatic calling 후 돌연변이결과 파일 출력
