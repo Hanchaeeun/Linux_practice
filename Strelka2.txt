@@ -1,9 +1,9 @@
 #!/bin/sh
-#PBS -N serial_job
+#PBS -N strelka2
 #PBS -V
 #PBS -q normal
 #PBS -A bwa
-#PBS -l select=1:ncpus=1:mpiprocs=1:ompthreads=1
+#PBS -l select=1:ncpus=64:mpiprocs=1:ompthreads=64
 
 cd $PBS_O_WORKDIR
 
