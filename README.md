@@ -36,5 +36,7 @@ MobaXterm
 4. Mutect2 
 
     최종 실험에 사용된 돌연변이 분석 툴 Mutect2를 실행. 
+    
     24개로 분리된 염색체 bam file에 variant calling과정을 24번을 수행.
+    
     총 24개의 vcf파일을 얻는다.
