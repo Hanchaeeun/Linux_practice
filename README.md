@@ -6,17 +6,24 @@
 <br/>
 
 >Kisti Institutional Repository :  https://repository.kisti.re.kr/handle/10580/17091
-
-> (2) variant calling 파트 담당으로 프로젝트에 참여했던 일부 코드와 교내 포스트 발표자로 만들었던 포스터를 업로드 합니다. 
+```
+pipeline
+├── alignment   
+├── preprocessing     
+├── variant calling          
+└── merge VCF  
+```
+> variant calling 담당으로 연구에 참여했던 일부 코드와 교내 포스트 발표자로 만들었던 포스터를 업로드 합니다. 
 
 ## purpose
 ![전체과정](https://user-images.githubusercontent.com/72204267/195063720-830a255e-44ee-440c-acc3-e04e3b13c113.png)
 
 전장유전체 데이터의 양은 점점 증가하지만, 기존의 전장유전체 변이분석 파이프라인은 슈퍼컴퓨터에 최적화 되어 있지 않아 효율성이 떨어졌다.
 본 연구는 슈퍼컴퓨터에 적합한 전장유전체 변이분석 파이프라인을 개발해 변이분석의 효율성을 높이기 위해 진행되었다.<br/>
-전장유전체 분석에서 시간이 많이 소요되는 핵심 과정은 alignment, preprocessing, variant calling 파트로,
-각 단계에서 사용할 수 있는 소프트웨어들을 슈퍼컴퓨터에서 병렬화 하고 최적의 파라미터 값을 발굴하여 수행속도를 향상 시킨 결과를 얻었다.
 
+전장유전체 분석에서 시간이 많이 소요되는 핵심 과정은 alignment, preprocessing, variant calling 파트로,<br/>
+각 단계에서 사용할 수 있는 소프트웨어들을 슈퍼컴퓨터에서 병렬화 하고 최적의 파라미터 값을 발굴하여 수행속도를 향상 시킨 결과를 얻었다.
+<br/>
 ## System environment
 KISTI 슈퍼컴퓨터 5호기 누리온 (05-Nurion-KNL)
 ### OS
